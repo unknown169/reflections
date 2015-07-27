@@ -23,4 +23,9 @@ switch to master before merging
 git merge master <branch>  to merge them git log will show the merge commit
 ‘git show’ will show the diff between a commit and its parent
 git branch -d  will delete the branch label w/o losing the actual changes
+git log -n 1  gets last commit
 
+lesson 3:
+git remote   will show the remote’s name -v for verbose to show more info
+git remote add <origin <web address>>  origin is typical name for one remote
+git push <remote name> <branch>  git push origin master to move data to github
