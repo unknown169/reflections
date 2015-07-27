@@ -1,0 +1,17 @@
+lesson 1:
+FC command on windows to compare 2 files
+diff -u on mac to compare 2 files
+‘git log’  to get info about changes
+git config --global color.ui auto   to add color to the changes
+‘q’ to quit git log
+git diff <first id  second id>  to compare changes
+‘git checkout’ lets you get and test older versions based on their ID
+git clone to clone a repository
+
+lesson 2:
+‘git init’ to initialize/create a new repository
+HEAD is gits name for the current commit
+‘git status’ shows which files changed since last commit
+git add <file name>  to add files to staging area before commit
+
+
