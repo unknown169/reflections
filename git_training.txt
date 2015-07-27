@@ -13,5 +13,14 @@ lesson 2:
 HEAD is gits name for the current commit
 ‘git status’ shows which files changed since last commit
 git add <file name>  to add files to staging area before commit
-
+git diff —-staged   shows changes between staged and repository
+git reset —-hard   discards changes to staged and working area  !DANGER!  can lose data
+git branch   shows the current working branch (*)
+git branch <branch name>   creates a branch with the specified name
+git checkout <branch name>   puts you in the working branch (*)
+git log --graph --oneline <branch(s)> gives a visual representation of the commit history
+switch to master before merging
+git merge master <branch>  to merge them git log will show the merge commit
+‘git show’ will show the diff between a commit and its parent
+git branch -d  will delete the branch label w/o losing the actual changes
 
