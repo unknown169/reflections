@@ -29,3 +29,7 @@ lesson 3:
 git remote   will show the remote’s name -v for verbose to show more info
 git remote add <origin <web address>>  origin is typical name for one remote
 git push <remote name> <branch>  git push origin master to move data to github
+git pull <remote name< <branch>  git pull origin master to move data to local from github
+git fetch  can be used to get a local copy of master from remote w/o change to local master
+so.. git pull origin master == git fetch origin, git merge master origin/master 
+git diff origin/master master to compare
